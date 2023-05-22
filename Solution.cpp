@@ -29,7 +29,7 @@ public:
             }
         }
 
-        //Merge two vector 
+        //Calculate the toal candies
         for (int i=0; i<n; i++)
         {
             totalCandies += max(left[i],right[i]);
